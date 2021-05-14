@@ -1,0 +1,104 @@
+.seconds{
+	width: 70%; 
+	margin-right: 0;
+
+}
+.profile{
+	display: block;
+	padding: 10px 180px;
+}
+.profile h3{
+	margin: 0;
+	padding: 0;
+}
+.profile-info{
+	margin-left: 50px;
+}
+.word{
+	width: 35%;
+}
+#spaces{
+	line-height: 38px;
+}
+.info{
+	width: 55%;
+}
+#new-input{
+	border-radius: 5px;
+	border:1px solid rgba(70,62,122,0.5);
+	padding: 2px;
+	padding-left: 5px;
+	width: 270px;
+	height: 20px;
+	margin-top: 10px;
+}
+#new-input:focus{
+	border-color:rgba(70,62,122,1) !important;
+	border-style: solid;
+	outline: none;
+}
+.words{
+	display: flex;
+	font-size: 14px;
+	color: rgb(130,130,130);
+	margin-right: 0;
+}
+.font{
+	width: 40%;
+}
+.inputs{
+	width: 60%;
+}
+#psw{
+	border-radius: 5px;
+	border:1px solid rgba(70,62,122,0.5);
+	padding: 2px;
+	padding-left: 5px;
+	width: 270px;
+	height: 20px;
+	margin-top: 10px;
+}
+#psw:focus{
+	border-color:rgba(70,62,122,1) !important;
+	border-style: solid;
+	outline: none;
+}
+#message {
+    display:none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    color: #000;
+    position: relative;
+    padding: 10px;
+    width: 250px;
+}
+
+#message p {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    background-image: url('tick.png');
+    background-size: 10px;
+    display: inline-block;
+    width: 10px; 
+    height: 10px;
+    content:"";
+     
+}
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    background-image: url('cross.png');
+    background-size: 10px;
+    display: inline-block;
+    width: 10px; 
+    height: 10px;
+    content:"";
+}

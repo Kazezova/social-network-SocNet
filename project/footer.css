@@ -1,0 +1,30 @@
+footer{
+	background-color: rgba(70,62,122,0.8); 
+	margin-top: 30px;
+	color: #fff;
+	display: flex;
+	padding: 0 140px;
+}
+.block{
+	padding: 30px;
+	display: block;
+	width: 250px;
+	text-align: center;
+}
+.block:hover{
+	background-color: #fff;
+	color: rgb(70,62,122);
+	font-weight: bold;
+}
+.block:hover a{
+	color: rgb(70,62,122);
+	font-weight: bold;
+}
+
+.block i{
+	font-size:35px;
+}
+.block a{
+	color: #fff;
+	text-decoration:none;
+}

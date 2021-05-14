@@ -1,0 +1,154 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #463E7A;
+	font-family: 'Verdana', sans-serif;
+
+}
+header{
+	padding: 10px;
+	font-size: 20px;
+	border:#F4F7F7 solid 1px;
+	box-shadow: 0px 0px 10px #BBC1CF;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+section{
+	margin-top: 10px;
+	display: flex;
+}
+section img{
+	margin: 70px 0 70px 200px;
+	width: 500px;
+}
+.sign{
+	margin: 200px auto;
+}
+.sign h2{
+	margin-bottom: 30px;
+	font-size: 30px; 
+}
+ul{
+	list-style: none;
+}
+a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	font-family: 'Verdana', sans-serif;
+	margin-right: 10.5px;
+	font-size: 21px;
+}
+#btn{
+    --c: #463E7A;
+    color: var(--c);
+    font-size: 20px;
+    border: 3px solid var(--c);
+    border-radius: 20px;
+    width: 350px;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    line-height: 2em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+#btn span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+#btn:hover {
+    color: #fff;
+}
+
+#btn:hover span {
+    transform: translateY(0) scale(2);
+}
+
+#btn span:nth-child(1) {
+    --n: 1;
+}
+
+#btn span:nth-child(2) {
+    --n: 2;
+}
+
+#btn span:nth-child(3) {
+    --n: 3;
+}
+
+#btn span:nth-child(4) {
+    --n: 4;
+}
+
+#btn1{
+    --c: #fff;
+    color: var(--c);
+    font-size: 20px;
+    border: 3px solid #463E7A;
+    border-radius: 20px;
+    width: 350px;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    line-height: 2em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    background-color: #463E7A;
+}
+
+#btn1 span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+#btn1:hover {
+    color: #463E7A;
+}
+
+#btn1:hover span {
+    transform: translateY(0) scale(2);
+}
+
+#btn1 span:nth-child(1) {
+    --n: 1;
+}
+
+#btn1 span:nth-child(2) {
+    --n: 2;
+}
+
+#btn1 span:nth-child(3) {
+    --n: 3;
+}
+
+#btn1 span:nth-child(4) {
+    --n: 4;
+}

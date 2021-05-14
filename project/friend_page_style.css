@@ -1,0 +1,62 @@
+.padding{
+	padding: 10px;
+}
+.padding hr{
+	border: 3px solid rgba(70,62,122,0.7);
+	border-radius: 3px;
+}
+.title{
+	font-size: 17px;
+	font-weight: bold;
+}
+.title font{
+	color: gray;
+	font-weight: normal;
+}
+.friend{
+	display: flex;
+	margin-top: 10px;
+	border-bottom: 1px solid rgba(70,62,122,0.7);
+	padding: 1px;
+}
+.friend-info{
+	margin-left: 10px;
+	padding-top: 15px; 
+	width: 480px;
+}
+.friend-info font{
+	font-size: 17px;
+}
+.friend-info a{
+	color: rgba(70,62,122,1);
+	text-decoration: none;
+}
+.friend-info a:hover{
+	text-decoration: underline;
+}
+.delete i{
+	color: #D4D4D4;
+	font-size: 15px;
+}
+.delete label{
+	cursor: pointer;
+    text-align: center;
+}
+#hidden-delete{
+	outline: 0;
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+    border: none;
+    padding: 0;
+}
+#none{
+	display: none;
+}
+.delete i:hover{
+	color: gray;
+}
+#city{
+	color: gray;
+	font-size: 14px;
+}
