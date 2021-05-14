@@ -597,7 +597,7 @@ function topFunction() {
 
 	const KELVIN = 273;
 
-	const key = "fde6ca68d5e26e764cd7780bf1656338";
+	const key = "token";
 
 				
 	getWeather(name);
